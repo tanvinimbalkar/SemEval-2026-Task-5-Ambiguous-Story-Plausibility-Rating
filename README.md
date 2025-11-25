@@ -19,22 +19,30 @@ The model must output a continuous plausibility score from 1 to 5, representing 
 **Installation**
 
 ***1. Clone the repository***
+
 git clone https://github.com/tanvinimbalkar/SemEval-2026-Task-5-Ambiguous-Story-Plausibility-Rating.git
 cd Sem_Eval_Task-05
 
 ***2. Install dependencies***
+
 pip install -r requirements.txt
 
 **Training the Model**
+
 Run the training script:
 python src/train_model.py
 
 
 This will:
+
 Load the RoBERTa tokenizer & base model
+
 Process train.json and dev.json from the dataset
+
 Train for 3 epochs
+
 Save model config + tokenizer files to:
+
 models/semeval_roberta/
 
 
