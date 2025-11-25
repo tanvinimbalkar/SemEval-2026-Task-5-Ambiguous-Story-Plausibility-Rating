@@ -103,6 +103,9 @@ tqdm
 **Notes**
 
 Model weights (.bin, .safetensors) are not included due to GitHub size limits
+
 The repository includes the official scoring scripts for reproducibility.
+
 The notebook (semeval-task05.ipynb) contains the complete training pipeline used on Kaggle.
+
 Prediction file format strictly follows SemEval guidelines.
