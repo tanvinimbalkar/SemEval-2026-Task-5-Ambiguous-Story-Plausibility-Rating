@@ -21,27 +21,6 @@ Mean and Standard Deviation of human annotations
 
 The model must output a continuous plausibility score from 1 to 5, representing how plausible the meaning is in the narrative.
 
-**Repository Structure**
-
-Sem_Eval_Task-05/
-│
-├── src/
-│   ├── dataset.py                     # Dataset loader & text builder
-│   ├── train_model.py                 # RoBERTa regression training script
-│   ├── fix_predictions.py             # Format predictions for scoring
-│   ├── generate_solution_from_dev.py  # Convert dev.json → solution.jsonl
-│
-├── semeval26-05-scripts/
-│   ├── scoring.py                     # Official Spearman + Within-Std scorer
-│   ├── format_check.py                # Validate prediction JSONL structure
-│
-├── models/
-│   └── semeval_roberta/
-│       └── config.json                # Model config (weights excluded)
-│
-├── predictions_dev.jsonl              # Raw predictions for Dev set
-├── semeval-task05.ipynb               # Notebook (optional)
-└── README.md
 
 **Installation**
 
